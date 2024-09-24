@@ -1,0 +1,57 @@
+.sidebar {
+
+    position: fixed;
+    top: 58px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 90px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar-links {
+
+
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    transition: 0.15s;
+}
+
+.sidebar-links:hover {
+
+
+    background-color: rgb(234, 234, 235);
+}
+
+#home{
+
+    display: inherit;
+    height: 100px;
+
+}
+
+#short {
+
+
+    display: inherit;
+    height: 100px;
+
+}
+
+#subscribtion {
+
+
+    display: inherit;
+    height: 100px;
+}
+
+#you {
+
+
+    display: inherit;
+    height: 100px;
+}

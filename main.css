@@ -1,0 +1,106 @@
+main {
+
+    padding-left: 95px;
+    padding-top: 65px;
+}
+
+
+
+.video-section {
+
+
+
+    
+}
+.video-container {
+
+
+
+
+
+    display: inline-block;
+    width: 500px;
+}
+
+.container-top-section {
+
+    transition: 0.15s;
+}
+
+.container-top-section:hover {
+
+    opacity: 0.5;
+}
+
+.container-bottom-section {
+
+
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.bottom-left {
+
+    
+
+    width: 55px;
+    transition: 0.15s;
+}
+
+#channelist {
+
+    padding-top: 7px;
+}
+
+.bottom-left:hover {
+
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.bottom-right {
+
+
+    display: flex;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 7px;
+}
+
+.video-title {
+
+    flex: 1;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.video-title:hover {
+
+    cursor: pointer;
+    color: rgb(94, 94, 94);
+}
+
+.video-details {
+
+    height: 50px;
+
+    font-size: 17px;
+    color: rgb(155, 155, 155);
+
+    transition: 0.15;
+    
+    margin-top: 5px;
+}
+
+.video-details:hover {
+
+
+    color: rgb(206, 206, 206);
+}
+
+
+
